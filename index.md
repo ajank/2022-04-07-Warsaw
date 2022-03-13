@@ -383,6 +383,8 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Setup</h2>
 
+<h3>Install R and RStudio</h3>
+
 <p>
   To participate in a
   {% if site.carpentry == "swc" %}
@@ -396,6 +398,13 @@ please preview your site before committing, and make sure to run
   you will need access to software as described below.
   In addition, you will need an up-to-date web browser.
 </p>
+
+<p>
+    Please install a recent version of R and RStudio, as well as a few required R packages.
+    The <a href="https://datacarpentry.org/R-ecology-lesson/#Preparations">setup instructions</a> can be found at the overview site of the <a href="https://datacarpentry.org/R-ecology-lesson/">Data Analysis and Visualization in R for Ecologists</a> lesson.
+    If you encounter any problems, you can get help during the troubleshooting session before the workshop.
+</p>
+
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
@@ -420,15 +429,3 @@ to include the relevant installation instrucctions.
 These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
-
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% elsif site.carpentry == "incubator" %}
-Please check the "Setup" page of
-[the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
-to obtain the software and data you will need to follow the lesson.
-{% endif %}
