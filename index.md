@@ -259,6 +259,13 @@ Edit the text to match who can attend the workshop. For instance:
 {% endcomment %}
 
 <hr/>
+<h2 id="registration">Registration</h2>
+
+<p>
+The workshop is open only to graduate students and other researchers from the scientific community of Warsaw. Please use the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQOPCM_0kcdqOPajS0SzOSH8hdsXOIyTqMelBd_Ls7J0y8Dw/viewform">registration form</a> provided. The registration is open until March 27, 2022.
+</p>
+
+<hr/>
 
 {% comment%}
 CODE OF CONDUCT
