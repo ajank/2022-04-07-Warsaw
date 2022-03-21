@@ -5,6 +5,4 @@ Instructors: Aleksander Jankowski, Vanessa Linke
 
 Workshop website: https://ajank.github.io/2022-04-07-Warsaw/
 
-![Advertisement](ad1.png)
-
-![testimage](fig/completed-page.png)
+![Advertisement](fig/ad1.png)
